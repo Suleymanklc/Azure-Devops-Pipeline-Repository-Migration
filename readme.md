@@ -25,7 +25,7 @@
         findReposForReleases = release.FindReleasePipelines()
         findReposForReleases.find_releases_using_repo(vars.repo_id, list_all=True, update=False,rollback=False)
 
- 4. **bulk update all build artifacts through all build pipelines depend on Deployments repository, 1. rollback is true is false means it will rollback definition update**
+ 4. **bulk update all build artifacts through all build pipelines depend on Deployments repository, rollback is true is false means it will rollback definition update**
 
      `findForBuildPipelines = build.FindBuildPipelines()
 findForBuildPipelines.find_pipelines_using_repo(vars.repo_id, list_all=True, update=False, rollback=False)`
