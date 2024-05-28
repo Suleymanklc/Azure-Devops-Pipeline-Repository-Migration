@@ -9,8 +9,8 @@
 
 ## How to use test_purpose.py?
 
-   release_definition_url = 'https://vsrm.dev.azure.com/xxxx/d64a9c3c-cec3-xxxx-xxxx-xxxx/_apis/Release/definitions/463?api-version=7.1-preview.4'
-   build_definition_url =` `https://dev.azure.com/xxxx/d64a9c3c-xxx-xxxx-b8a8-xxxx/_apis/build/Definitions/3065?api-version=7.1-preview.7`
+   release_definition_url : 'https://vsrm.dev.azure.com/xxxx/d64a9c3c-cec3-xxxx-xxxx-xxxx/_apis/Release/definitions/463?api-version=7.1-preview.4'
+   build_definition_url : https://dev.azure.com/xxxx/d64a9c3c-xxx-xxxx-b8a8-xxxx/_apis/build/Definitions/3065?api-version=7.1-preview.7`
 
  1. **single update for build definition, rollback is true/false  will rollback definition update**
 
@@ -33,48 +33,55 @@ findForBuildPipelines.find_pipelines_using_repo(vars.repo_id, list_all=True, upd
 
   ## Environment variables
  
-#Azure devops access token
+Azure devops access token
 
-personal_access_token = ''  
+`personal_access_token   `
 
-build_api_organization_url = 'https://dev.azure.com/xxx/'
+build_api_organization_url\
+`'https://dev.azure.com/xxx/'`
 
 release_api_organization_url = 'https://vsrm.dev.azure.com/xxx/'
 
-project_name = ""
+project_name 
+`project_name`
 
-#Source repo ID
+Source repo ID
 
-repo_id = 'd6e97c93-4023-xxxx-xx-xxxx
+`repo_id = 'd6e97c93-4023-xxxx-xx-xxxx'`
 
-#Source repo Name
+Source repo Name
 
-repo_name = 'Deployments'
+`repo_name = 'Deployments'`
 
-#Source repo URL
+Source repo URL
 
-repo_url = 'https://xxxx@dev.azure.com/xxxx/xxxx/_git/Core-Infrastructure'
+`repo_url = 'https://xxxx@dev.azure.com/xxxx/xxxx/_git/Core-Infrastructure'`
 
-#Whitelisted release folders not to apply
+Whitelisted release folders not to apply
 
-services_release_folders = ["Development-Azure", "Dev-Featurebranch", "Performance Testing-Azure", "Production-Azure", "Test-Azure", "Validation"]
+`services_release_folders = ["Development-Azure", "Dev-Featurebranch", "Performance Testing-Azure", "Production-Azure", "Test-Azure", "Validation"]`
 
-#Whitelisted build folders not to apply
+Whitelisted build folders for exceptions
 
-services_build_folders = ["Development", "LoadTesting", "Production", "Test"]
+`services_build_folders = ["Development", "LoadTesting", "Production", "Test"]
+`
+destination repo name
 
-#destination repo name
+`infraRepoName = 'Core-Infrastructure'`
 
-infraRepoName = 'Core-Infrastructure'
+destination repo ID
 
-#destination repo ID
-]
-infraRepoId = '53159690-6f60-xx-xxx-xxxx'
+`infraRepoId = '53159690-6f60-xx-xxx-xxxx'`
 
-#destination repo URL
+destination repo URL
 
-infraRepoUrl = 'https://xxx@dev.azure.com/xxx/xxx/_git/xxxxx'
+`infraRepoUrl = 'https://xxx@dev.azure.com/xxx/xxx/_git/xxxxx'`
 
-release_definitions_url = release_api_organization_url + call_api.get_project_id() + '/_apis/release/definitions?api-version=7.1-preview.4'
+release_definitions_url
 
-build_definitions_url = build_api_organization_url + call_api.get_project_id() + '/_apis/build/definitions?api-version=7.1-preview.7'
+`release_definitions_url = release_api_organization_url + call_api.get_project_id() + '/_apis/release/definitions?api-version=7.1-preview.4'`
+
+build_definitions_url
+
+`build_definitions_url = build_api_organization_url + call_api.get_project_id() + '/_apis/build/definitions?api-version=7.1-preview.7'
+`
