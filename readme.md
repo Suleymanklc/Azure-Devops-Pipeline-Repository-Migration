@@ -41,7 +41,9 @@ Azure devops access token
 build_api_organization_url\
 `'https://dev.azure.com/xxx/'`
 
-release_api_organization_url = 'https://vsrm.dev.azure.com/xxx/'
+release_api_organization_url
+
+`'https://vsrm.dev.azure.com/xxx/'`
 
 project_name 
 `project_name`
