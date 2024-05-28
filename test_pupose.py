@@ -3,8 +3,8 @@ import build
 import call_api
 import vars
 
-release_definition_url = 'https://vsrm.dev.azure.com/aerdata/d64a9c3c-cec3-42be-b8a8-8010281bd397/_apis/Release/definitions/463?api-version=7.1-preview.4'
-build_definition_url = 'https://dev.azure.com/aerdata/d64a9c3c-cec3-42be-b8a8-8010281bd397/_apis/build/Definitions/3065?api-version=7.1-preview.7'
+release_definition_url = 'https://vsrm.dev.azure.com/xx/xx/_apis/Release/definitions/463?api-version=7.1-preview.4'
+build_definition_url = 'https://dev.azure.com/xxx/_apis/build/Definitions/3065?api-version=7.1-preview.7'
 
 ### update build artifact in a single build pipeline
 
