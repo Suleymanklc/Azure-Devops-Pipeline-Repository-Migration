@@ -10,7 +10,8 @@
 ## How to use test_purpose.py?
 
    release_definition_url : 'https://vsrm.dev.azure.com/xxxx/d64a9c3c-cec3-xxxx-xxxx-xxxx/_apis/Release/definitions/463?api-version=7.1-preview.4'
-   build_definition_url : https://dev.azure.com/xxxx/d64a9c3c-xxx-xxxx-b8a8-xxxx/_apis/build/Definitions/3065?api-version=7.1-preview.7`
+
+   build_definition_url : https://dev.azure.com/xxxx/d64a9c3c-xxx-xxxx-b8a8-xxxx/_apis/build/Definitions/3065?api-version=7.1-preview.7
 
  1. **single update for build definition, rollback is true/false  will rollback definition update**
 
