@@ -31,7 +31,7 @@ class FindReleasePipelines:
                         call_api.update_release_artifact(href_url, rollback)
 
     def _generate_href_url(self, definition_id):
-        return f"https://vsrm.dev.azure.com/aerdata/d64a9c3c-cec3-42be-b8a8-8010281bd397/_apis/Release/definitions/{definition_id}?api-version=7.1-preview.4"
+        return f"https://vsrm.dev.azure.com/xxxx/xxxxx/_apis/Release/definitions/{definition_id}?api-version=7.1-preview.4"
 
     def _should_include_release(self, data):
         for folder in vars.services_release_folders:
