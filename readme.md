@@ -13,7 +13,7 @@
 
  1. **single update for build definition, rollback is true is false means it will rollback definition update**
 
-        `call_api.update_build_artifact( build_definition_url, rollback=False )`
+        call_api.update_build_artifact( build_definition_url, rollback=False )
    
 
  2. **single update for releae definition, rollback is true is false means it will rollback**
