@@ -1,5 +1,5 @@
 # Release notes:
-#Version 3.9
+#Python Version 3.9
 
  - Listing all build definitions which using a spesific repo url.
  - Listing all release definitions which using a spesific repo url.
