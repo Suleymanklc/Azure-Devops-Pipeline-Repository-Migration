@@ -33,6 +33,7 @@ findForBuildPipelines.find_pipelines_using_repo(vars.repo_id, list_all=True, upd
   ## Environment variables
  
 #Azure devops access token
+
 personal_access_token = ''  
 
 build_api_organization_url = 'https://dev.azure.com/xxx/'
@@ -40,6 +41,7 @@ build_api_organization_url = 'https://dev.azure.com/xxx/'
 release_api_organization_url = 'https://vsrm.dev.azure.com/xxx/'
 
 project_name = ""
+
 #Source repo ID
 
 repo_id = 'd6e97c93-4023-xxxx-xx-xxxx
@@ -53,15 +55,19 @@ repo_name = 'Deployments'
 repo_url = 'https://xxxx@dev.azure.com/xxxx/xxxx/_git/Core-Infrastructure'
 
 #Whitelisted release folders not to apply
+
 services_release_folders = ["Development-Azure", "Dev-Featurebranch", "Performance Testing-Azure", "Production-Azure", "Test-Azure", "Validation"]
 
 #Whitelisted build folders not to apply
+
 services_build_folders = ["Development", "LoadTesting", "Production", "Test"]
 
 #destination repo name
+
 infraRepoName = 'Core-Infrastructure'
 
 #destination repo ID
+]
 infraRepoId = '53159690-6f60-xx-xxx-xxxx'
 
 #destination repo URL
