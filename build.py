@@ -38,7 +38,7 @@ class FindBuildPipelines:
         return True
 
     def _generate_pipeline_link(self, pipeline_id):
-        return f"https://dev.azure.com/aerdata/d64a9c3c-cec3-42be-b8a8-8010281bd397/_apis/build/Definitions/{pipeline_id}?api-version=7.1-preview.7"
+        return f"https://dev.azure.com/xxx/xxx-xxx-42be-b8a8-8010281bd397/_apis/build/Definitions/{pipeline_id}?api-version=7.1-preview.7"
 
     def _print_pipeline_info(self, count, name, web_url, api_url):
         print(f"{count}. {name}:")
